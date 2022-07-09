@@ -17,12 +17,15 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: s3-bucket-automatic-2159
     distributionFolder: build
-  s3BucketName: ${self:custom.client.bucketName}
-
+    tags:
+      name: automatic-deploy-on-s3
+      team: EPAM-JS-EDU-AND-LD
+  
   ## Serverless-single-page-app-plugin configuration:
   s3LocalPath: ${self:custom.client.distributionFolder}/
+  s3BucketName: ${self:custom.client.bucketName}
 
 resources:
   Resources:
