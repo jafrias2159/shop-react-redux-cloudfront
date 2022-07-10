@@ -17,11 +17,8 @@ plugins:
 
 custom:
   client:
-    bucketName: s3-bucket-automatic-2159
+    bucketName: s3-bucket-automatic-6321
     distributionFolder: build
-    tags:
-      name: automatic-deploy-on-s3
-      team: EPAM-JS-EDU-AND-LD
   
   ## Serverless-single-page-app-plugin configuration:
   s3LocalPath: ${self:custom.client.distributionFolder}/
