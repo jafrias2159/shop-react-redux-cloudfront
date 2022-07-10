@@ -52,7 +52,7 @@ Bucket page:        http://test-bucket2159.s3-website-us-east-1.amazonaws.com/
 
 Bloudfront page:  https://d2ef43egbtvvlf.cloudfront.net/
 
-Semiautomatic deployment using serverless library:\
-Bucket: http://s3-bucket-automatic-2159.s3-website-us-east-1.amazonaws.com/
+Automatic deployments using serverless library:\
+Bucket: http://s3-bucket-automatic-6321.s3-website-us-east-1.amazonaws.com/
 
-Bloudfront page: https://d2257kz6dwnpy1.cloudfront.net
+Bloudfront page: https://d2j1ejigsg4tx4.cloudfront.net/
