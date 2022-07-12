@@ -50,9 +50,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 Manual Deployment:\
 Bucket page:        http://test-bucket2159.s3-website-us-east-1.amazonaws.com/
 
-Bloudfront page:  https://d2ef43egbtvvlf.cloudfront.net/
+Cloudfront page:  https://d2ef43egbtvvlf.cloudfront.net/
 
 Automatic deployments using serverless library:\
 Bucket: http://s3-bucket-automatic-6321.s3-website-us-east-1.amazonaws.com/
 
-Bloudfront page: https://d2j1ejigsg4tx4.cloudfront.net/
+Cloudfront page: https://d2j1ejigsg4tx4.cloudfront.net/
