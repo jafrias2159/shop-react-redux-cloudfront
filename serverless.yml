@@ -17,12 +17,12 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: s3-bucket-automatic-6321
     distributionFolder: build
-  s3BucketName: ${self:custom.client.bucketName}
-
+  
   ## Serverless-single-page-app-plugin configuration:
   s3LocalPath: ${self:custom.client.distributionFolder}/
+  s3BucketName: ${self:custom.client.bucketName}
 
 resources:
   Resources:
